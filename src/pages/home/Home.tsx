@@ -2,7 +2,6 @@
 import AboutUs from "./components/AboutUs";
 import HomeSection1 from "./components/HomeSection1";
 import HomeSection2 from "./components/HomeSection2";
-import Section3 from "./components/section3";
 import Section4 from "./components/section4";
 import WhyChoose from "./components/WhyChoose";
 

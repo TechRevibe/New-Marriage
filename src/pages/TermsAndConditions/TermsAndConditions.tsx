@@ -1,4 +1,3 @@
-import React from "react";
 import ContentWrapper from "../../components/global/ContentWrapper";
 
 const TermsAndConditions = () => {
