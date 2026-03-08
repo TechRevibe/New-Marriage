@@ -7,6 +7,8 @@ import Contact from "../pages/contact/Contact";
 import Services from "../pages/services/Services";
 import Gallery from "../pages/gallery/Gallery";
 import Faq from "../pages/faq/FAQ";
+import TermsAndConditions from "../pages/TermsAndConditions/TermsAndConditions";
+import Policy from "../pages/Policy/Policy";
 
 // Define all routes
 const routes: RouteObject[] = [
@@ -20,6 +22,9 @@ const routes: RouteObject[] = [
       { path: "/service", element: <Services /> },
       { path: "/gallery", element: <Gallery /> },
       { path: "/faq", element: <Faq /> },
+      { path: "/terms", element: <TermsAndConditions/> },
+      { path: "/policy", element: <Policy/> }
+
     ],
   },
 ];

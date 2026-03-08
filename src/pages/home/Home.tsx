@@ -34,10 +34,9 @@ export default function Home() {
       {/* <Hero data={data} setData={setData} isEditing={isEditing} fileRef={fileRef} /> */}
       <HomeSection1 />
       <AboutUs />
-
       <HomeSection2 />
       <WhyChoose />
-      <Section3 />
+      {/* <Section3 /> */}
       <Section4 />
     </>
   );

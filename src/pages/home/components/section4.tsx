@@ -6,24 +6,34 @@ import img from "../../../assets/hero/bride-holding.jpg";
 
 const faqs = [
   {
-    question: "How long until we deliver your first blog post?",
+    question: "What does a marriage celebrant do?",
     answer:
-      "We typically deliver your first blog post within 5–7 business days after receiving all required details and assets.",
+      "A marriage celebrant officiates and conducts your wedding ceremony, ensuring all legal requirements are met while creating a meaningful and personalised ceremony that reflects your relationship.",
   },
   {
-    question: "Do you offer custom wedding photography packages?",
+    question: "How far in advance should we book our celebrant?",
     answer:
-      "Yes! We offer fully customizable packages tailored to your event size, location, and preferences.",
+      "It is recommended to book your celebrant as early as possible, especially during popular wedding seasons. Many couples book 6–12 months in advance to secure their preferred date.",
   },
   {
-    question: "How many edited photos will we receive?",
+    question: "Do you help with the legal paperwork?",
     answer:
-      "You will receive approximately 300–600 professionally edited images depending on the package selected.",
+      "Yes. Your celebrant will guide you through all the necessary legal documents and ensure everything is completed correctly before and after the ceremony.",
   },
   {
-    question: "Do you travel for destination weddings?",
+    question: "Can we personalise our wedding ceremony?",
     answer:
-      "Absolutely! We love capturing destination weddings. Travel costs may vary depending on the location.",
+      "Absolutely. Your ceremony can be tailored to reflect your story, values, and traditions. You can include personal vows, readings, cultural rituals, or any meaningful elements.",
+  },
+  {
+    question: "Can you perform small or elopement ceremonies?",
+    answer:
+      "Yes. Celebrants can conduct everything from intimate elopements with just two witnesses to larger traditional wedding ceremonies.",
+  },
+  {
+    question: "Do you travel to different locations for ceremonies?",
+    answer:
+      "Yes, ceremonies can be performed at a variety of locations including beaches, parks, private venues, and homes. Travel arrangements may apply depending on the distance.",
   },
 ];
 
@@ -52,6 +62,9 @@ export default function Section4() {
             />
           </div>
         </div>
+
+
+
 
         {/* FAQ Content */}
         <div>

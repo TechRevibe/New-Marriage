@@ -35,26 +35,32 @@ const AboutUs = () => {
           {/* RIGHT SIDE - CONTENT */}
           <div className="w-full md:pl-8 text-center md:text-left">
             <p className="text-white leading-relaxed mb-6 text-sm sm:text-base">
-              A Nepalese-Australian Marriage Celebrant based in Sydney. We love
-              conducting weddings and go above and beyond to make every couple’s
-              special day truly memorable.
-              <br />
-              <br />
-              My Celebrant Services are customised for each couple. We’ll help
-              you with all the legal marriage registration in Sydney, arrange
-              your ceremony, and be there on the wedding day to calm your nerves
-              and ensure you receive the ceremony and atmosphere you want.
-              <br />
-              <br />
-              Make your special day unforgettable with Celebrant Nirava, a
-              professional Marriage Celebrant in Sydney. We specialise in
-              creating personalised and meaningful wedding ceremonies tailored
-              to your love story.
-              <br />
-              <br />
-              As a trusted Sydney Civil Marriage Celebrant, we ensure a
-              stress-free and joyful experience.
-            </p>
+              Hello !  I’m Niru Chhetri KC, a Certified Celebrant with a passion
+              for creating ceremonies that will remain in your heart and memory
+              forever. With a thriving background in celebrancy and a deep
+              commitment to personalised service, I believe every ceremony
+              should be as unique as the people at its centre.
+              
+              <br/> <br/> Your special
+              moments deserve to be celebrated in a way that truly reflects your
+              story, your values, and the journey that brought you to this
+              meaningful day. Whether you are celebrating love, welcoming new
+              life, honouring a milestone, or saying farewell to a loved one, my
+              role is to guide and support you in creating a ceremony that feels
+              genuine, heartfelt, and memorable. 
+              
+              <br/> <br/> 
+              I take the time to understand
+              your vision and craft a ceremony that captures the emotions,
+              traditions, and personal touches that matter most to you. My
+              approach is warm, thoughtful, and professional. From our first
+              conversation to the moment your ceremony begins, I work closely
+              with you to ensure every detail is carefully planned and delivered
+              with care and authenticity. It is truly an honour to be part of
+              life’s most meaningful occasions, and I am dedicated to helping
+              you create a ceremony that not only celebrates the moment but also
+              becomes a cherished memory for years to come.
+              </p>
 
             <p className="text-white leading-relaxed mb-8 text-sm sm:text-base">
               Every detail is carefully crafted to reflect your love story and
@@ -63,7 +69,7 @@ const AboutUs = () => {
 
             <div className="flex justify-center md:justify-start">
               <Link to="/contact">
-              <button className="btn-primary">Contact Us</button>
+                <button className="btn-primary">Contact Us</button>
               </Link>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import img from "../../../assets/hero/figma-image5.png";
+import img from "../../../assets/hero/hands-wedding.jpg";
 import BookAppointmentModal from "../../../components/global/book-appointment/BookAppointmentModal";
 
 export default function HomeSection1() {
@@ -61,7 +61,7 @@ export default function HomeSection1() {
             </div>
 
             <div className="text-center">
-              <h3 className="text-2xl font-semibold text-textMain">120+</h3>
+              <h3 className="text-2xl font-semibold text-textMain">20+</h3>
               <p className="text-xs tracking-widest text-muted">EVENTS</p>
             </div>
 
