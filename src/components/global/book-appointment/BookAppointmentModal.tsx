@@ -45,7 +45,7 @@ const BookAppointmentModal: React.FC<Props> = ({ isOpen, onClose }) => {
     // Australian phone validation
     const phoneRegex = /^(\+614|04)\d{8}$/;
     if (!phoneRegex.test(formData.phone)) {
-      alert("Please enter a valid Australian phone number (e.g., +61414226056 or 0414226056).");
+      alert("Please enter a valid Australian phone number (e.g., +61414226056).");
       return;
     }
 
