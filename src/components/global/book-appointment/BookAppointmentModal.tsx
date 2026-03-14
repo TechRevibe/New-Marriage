@@ -121,7 +121,7 @@ const BookAppointmentModal: React.FC<Props> = ({ isOpen, onClose }) => {
           <input
             name="phone"
             type="tel"
-            placeholder="Phone (e.g., +61XXXXXXXXXX or 04XXXXXXXX)"
+            placeholder="Phone (e.g., +61XXXXXXXXXX)"
             required
             value={formData.phone}
             onChange={handleChange}
