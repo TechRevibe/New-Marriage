@@ -73,7 +73,7 @@ export default function ContactForm() {
       {/* Phone */}
       <input
         type="tel"
-        placeholder="Phone (e.g., +61XXXXXXXXX or 04XXXXXXXX)"
+        placeholder="Phone (e.g., +61XXXXXXXXX)"
         className={`input-clean ${errors.phone ? "input-error" : ""}`}
         {...register("phone")}
       />

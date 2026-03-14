@@ -2,18 +2,17 @@ import img from "../../../assets/hero/figma-image20.png";
 import img1 from "../../../assets/hero/figma-image18.png";
 import img2 from "../../../assets/hero/figma-image4.png";
 
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 import ContentWrapper from "../../../components/global/ContentWrapper";
 import { Link } from "react-router-dom";
 
 export default function ContactSection() {
   const socialLinks = [
-    { Icon: FaFacebookF, href: "https://facebook.com/yourpage" },
-    { Icon: FaXTwitter, href: "https://twitter.com/yourhandle" },
-    { Icon: FaYoutube, href: "https://youtube.com/yourchannel" },
-    { Icon: FaLinkedinIn, href: "https://linkedin.com/company/yourprofile" },
+    { Icon: FaFacebook, href: "https://www.facebook.com/people/Nirava-Kc/61583918042011/" },
+    { Icon: FaInstagram, href: "https://www.tiktok.com/@nirava.marriage.c" },
+    { Icon: FaTiktok, href: "https://www.tiktok.com/@nirava.marriage.c" },
+
   ];
 
   return (
@@ -29,14 +28,13 @@ export default function ContactSection() {
               </h2>
 
               <p className="text-muted mt-4">
-                Sed lectus ultricies id in massa tellus. Gravida ullamcorper
-                lectus vitae tristique cursus tempor rutrum.
+              I ensure your ceremony is smooth and stress-free, letting you focus on what matters most — celebrating your love.
               </p>
 
               <div className="mt-8 space-y-3 text-muted">
                 <p>📞 Phone: +61 452-010-989</p>
                 <p>✉️ Email: niravacelebrant@gmail.com</p>
-                <p>📍 Paramatta, Sydney, Australia</p>
+                <p>📍 Parramatta, Sydney, Australia</p>
               </div>
             </div>
 
@@ -69,8 +67,7 @@ export default function ContactSection() {
               <h3>Book For An Appointment</h3>
 
               <p className="text-muted mt-4">
-                Sed lectus ultricies id in massa tellus. Gravida ullamcorper
-                lectus vitae tristique cursus tempor rutrum.
+              Your love story deserves a beautiful beginning. Book a time with us and let’s craft your perfect ceremony.
               </p>
 
               {/* SOCIAL */}

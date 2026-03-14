@@ -23,7 +23,7 @@ export default function HomeSection2() {
         </h2>
 
         <p ref={revealRef} className="text-muted mt-4">
-          Find the perfect wedding professionals with AI's smart suggestions!
+          Find the perfect wedding professionals with smart suggestions!
         </p>
 
         {/* IMAGE ROW */}

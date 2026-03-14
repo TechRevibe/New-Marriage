@@ -50,8 +50,8 @@ const SectionTwo: React.FC = () => {
             </div>
 
             <div>
-              <h3>10+</h3>
-              <p className="text-primary">AWARDS</p>
+              <h3>7+</h3>
+              <p className="text-primary">STAGES</p>
             </div>
           </div>
 
